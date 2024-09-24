@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import RequestForm from "../../../components/RequestForm";
 import Loading from "../../../components/Loading";
 import "./newRequest.css";
-import axios from "axios";
+//import axios from "axios";
 import { useAuth } from "../../../contexts/auth";
 import Modal from "react-modal";
 import { FaCheckCircle } from "react-icons/fa"; // For check icon
@@ -11,8 +11,8 @@ import {
   usenewRequest,
   useApproveRequest,
 } from "../../../hooks/useNewRequestHook";
-import { color } from "html2canvas/dist/types/css/types/color";
-import { red } from "@mui/material/colors";
+// import { color } from "html2canvas/dist/types/css/types/color";
+// import { red } from "@mui/material/colors";
 // Set the root element for the modal
 Modal.setAppElement("#root");
 
